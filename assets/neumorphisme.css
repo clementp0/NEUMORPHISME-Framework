@@ -1,0 +1,91 @@
+body {
+  background-color: #e3e1e2; }
+
+.button-inactive {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #e3e1e2;
+  box-shadow: 5px 5px 11px #cccbcb,  -5px -5px 11px #f7f5f6; }
+
+.button-inactive:active {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #e3e1e2;
+  box-shadow: inset 5px 5px 10px #cccbcb,  inset -5px -5px 10px #faf8f9; }
+
+.button-active {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #e3e1e2;
+  box-shadow: inset 5px 5px 10px #cccbcb,  inset -5px -5px 10px #faf8f9; }
+
+.circle-button-inactive {
+  padding: 10px;
+  border: none;
+  width: 35px;
+  border-radius: 61px;
+  background: #e3e1e2;
+  box-shadow: 8px 8px 17px #cfcdce,  -8px -8px 17px #f7f5f6; }
+
+.circle-button-inactive:active {
+  padding: 10px;
+  border: none;
+  width: 35px;
+  border-radius: 61px;
+  background: #e3e1e2;
+  box-shadow: inset 5px 5px 10px #cfcdce,  inset -5px -5px 10px #f7f5f6; }
+
+.circle-button-active {
+  padding: 10px;
+  border: none;
+  width: 35px;
+  border-radius: 61px;
+  background: #e3e1e2;
+  box-shadow: inset 5px 5px 10px #cfcdce,  inset -5px -5px 10px #f7f5f6; }
+
+.input-item {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #e3e1e2;
+  box-shadow: inset 5px 5px 10px #cccbcb,  inset -5px -5px 10px #faf8f9; }
+
+.section-out {
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  background: #e3e1e2;
+  box-shadow: 9px 9px 18px #cfcdce,  -9px -9px 18px #f7f5f6; }
+
+.section-in {
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  background: #e3e1e2;
+  box-shadow: inset 6px 6px 12px #cfcdce,  inset -6px -6px 12px #f7f5f6; }
+
+.progress-container {
+  width: 50%;
+  padding: 2px;
+  padding-left: 2px;
+  height: 20px;
+  border-radius: 50px;
+  background: #e3e1e2;
+  box-shadow: inset 3px 3px 6px #c1bfc0,  inset -3px -3px 6px #ffffff; }
+
+.progress-bar {
+  text-align: center;
+  border-radius: 30px;
+  background: linear-gradient(225deg, #dedede, #f1f1f1);
+  box-shadow: -1px 1px 2px 1px #d1cfd0, -1px 1px 0px #f5f3f4; }
+
+.textarea-item {
+  border: none;
+  border-radius: 10px;
+  background: #e3e1e2;
+  box-shadow: inset 6px 6px 12px #cfcdce,  inset -6px -6px 12px #f7f5f6; }
+
+/*# sourceMappingURL=neumorphisme.css.map */

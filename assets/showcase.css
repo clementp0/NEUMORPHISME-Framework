@@ -1,0 +1,95 @@
+body {
+  padding: 50Px; }
+  body button:focus {
+    outline: 0; }
+  body textarea:focus {
+    outline: 0; }
+  body input:focus {
+    outline: 0; }
+
+button, input, p, span, textarea, h1, a {
+  font-family: Muli,sans-serif;
+  font-weight: 700; }
+
+.header {
+  border: 0px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #cccbcb; }
+
+.header > a {
+  text-decoration: none;
+  float: right;
+  margin-top: 2px;
+  cursor: pointer;
+  padding-right: 10px; }
+
+h1 {
+  font-size: 22px; }
+
+.button-section, .circle-section, .input-section, .section-section, .section-progress, .section-textarea {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 0px;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #cccbcb; }
+
+.section-progress {
+  padding-bottom: 30px; }
+
+.section-out {
+  margin-bottom: 20px; }
+
+.section-out > p {
+  font-size: 13px;
+  padding: 7px; }
+
+.section-in > p {
+  font-size: 13px;
+  padding: 7px; }
+
+span {
+  font-size: 11px;
+  font-weight: 700; }
+
+.code {
+  float: right; }
+
+.textarea-item {
+  width: 50%;
+  height: 100px;
+  resize: none;
+  text-align: left;
+  font-size: 13px;
+  padding: 7px; }
+
+.code_div > textarea::-webkit-scrollbar {
+  display: none; }
+
+.code_div > textarea {
+  -ms-overflow-style: none; }
+
+.code_div > textarea {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.show_code_1, .show_code_2, .show_code_3, .show_code_4, .show_code_5, .show_code_6 {
+  display: none; }
+
+.show_code_5 > textarea {
+  width: 50%;
+  margin-right: 10px; }
+
+.copy-showcase {
+  width: 45px;
+  height: 45px; }
+
+.copy-showcase:active {
+  width: 45px;
+  height: 45px; }
+
+.copy-showcase > img {
+  margin-top: 2px; }
+
+/*# sourceMappingURL=showcase.css.map */
